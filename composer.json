@@ -1,0 +1,22 @@
+{
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"config" :
+	{
+		"optimize-autoloader" : true,
+		"allow-plugins" :
+		{
+			"composer/installers" : true
+		}
+	},
+	"autoload" :
+	{
+		"psr-4" :
+		{
+			"DevKit\\DebugBar\\VarDump\\" : "Includes"
+		}
+	},
+	"require": {
+		"symfony/var-dumper": "^6.2"
+	}
+}

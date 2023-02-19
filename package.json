@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "build": "webpack --mode=production --watch"
+  },
+  "author": "Bob Moore",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.7",
+    "@wordpress/babel-preset-default": "^7.0.0",
+    "@wordpress/dependency-extraction-webpack-plugin": "^4.0.0",
+    "@wordpress/scripts": "^24.1.0",
+    "babel-loader": "^8.2.3",
+    "glob": "^8.0.3",
+    "object.defaults": "^1.1.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.21.2",
+    "webpack-bundle-analyzer": "^4.6.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "browserslist": [
+    "last 3 version"
+  ],
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.24.0",
+    "@wordpress/dom-ready": "^3.8.0",
+    "html-react-parser": "^3.0.9"
+  }
+}

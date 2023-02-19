@@ -1,0 +1,19 @@
+{
+    "compilerOptions" :
+    {
+        "outDir" : "./dist/scripts",
+        "sourceMap" : true,
+        "noImplicitAny" : false,
+        "module" : "commonjs",
+        "target" : "es5",
+        "jsx" : "react-jsx",
+        "allowJs" : true,
+        "moduleResolution" : "node",
+        "esModuleInterop": true,
+        "lib": [
+            "es5",
+            "scripthost",
+            "dom"
+        ]
+    }
+ }
